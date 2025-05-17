@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "53.0.0",
+    "scheme": "meuapp",
+    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "jsc",
+    "plugins": [
+      ["expo-router", { "root": "./src/routes" }],
+      ["expo-av", { "microphonePermission": "O DouUmHelp precisa de acesso ao microfone …" }]
+    ],
+    "android": { "package": "com.seunome.app" },
+    "ios":     { "bundleIdentifier": "com.seunome.app" }
+  }
+}

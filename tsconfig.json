@@ -1,0 +1,19 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react-jsx",                 
+    "jsxImportSource": "react",        
+    "types": [
+      "react",
+      "react-native",
+      "react/jsx-runtime"               
+    ],
+    "skipLibCheck": true,               
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "allowJs": true
+  },
+  "include": ["src/**/*", "global.d.ts", "nativewind-env.d.ts"]
+}
